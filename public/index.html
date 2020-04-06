@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/styles.css" rel="stylesheet"/>
+    <link href="./css/flexbox.css" rel="stylesheet"/>
+    <title>Adventure Anywhere</title>
+  </head>
+  <body>
+    <div class="main wrapper">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+    <h1>Adventure Anywhere!</h1>
+    
+    <div class="content">
+      <div class="center">
+        <h2>Login</h2>
+        <form novalidate>
+          <label for="username">
+            <span>Username:</span>
+            <input id="username" type="text" placeholder="Username" />
+          </label>
+          <label for="password">
+            <span>Password:</span>
+            <input id="password" type="password" placeholder="Password" />
+          </label>
+          <button onclick="doLogin(event)">Submit</button>
+          <a href="./register.html">Register</a>
+        </form>
+      </div>
+    </div>
+    <h2>Choose the Adventure, Choose the Location! </h2>
+    <img src="images/globaladventure.jfif" alt="The earth being held by a hand.">
+    <p>Delivering adventure, anywhere in the world. Linking you to outfitters, guides, etc.. Search for your next adventure and where you can find it in the world or choose where you want to go and see what there is to offer.  AdventureAnywhere is all the all-encompassing site for the globe trotting adrenaline junkie or the adventurer who wants to see what their “backyard” has to offer.</p>
+    <p>Adventure Anywhere allows you to search by:</p>
+
+    <nav>
+    <ul>
+    <li><a href = "adventure.html">Adventure</a></li>
+    <li><a href = "location.html">Location</a></li>
+    <li><a href = "outfitter.html">Outfitter</a></li>
+    </ul>  
+      </nav>
+
+    <p>Kinda like trekking the globe, but from the comfort of <a href="https://www.google.com/maps">wherever you're at!</a></p>
+    
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+        </ul>
+      </nav>
+      <p>Author: <a href = "https://github.com/snowbrd1">Brian H.</a></p>
+    </footer>
+  </div>
+</body>
+<script src="./src/service-helpers.js"></script>
+<script src="./src/auth.service.js"></script>
+<script src="./src/app.js"></script>
+</html>
