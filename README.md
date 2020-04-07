@@ -4,7 +4,7 @@ An all encompassing web app designed for adventure travellers who want all the a
 
 ## Notes and comments
 
-Currently, the backend server has not been uploaded so this will only allow access to the front end.  Please follow instructions below for front end install(server side included instructins as this will be part of final README).
+Currently, the backend server has not been uploaded so this will only allow access to the front end.  Please follow instructions below for front end install(server side included instructions as this will be part of final README).
 
 ## Installation Instructions for Testing
 
@@ -21,12 +21,13 @@ Currently, the backend server has not been uploaded so this will only allow acce
     };
 7.You will need to cd into the restful-api-mysql directory in the API terminal and run node src/index.js
 8.You will need to cd into the fnalapp directory in the other terminal and run node server/index.js
-9.  Once completed you should now be running on both ports with a successful connectio to the database you created.
+9.Once completed you should now be running on both ports with a successful connectio to the database you created.
 ```
 
 ## Resources Used
 
-```-MySQL
+```
+-MySQL
 -Visual Studio Code
 -Xampp Control Panel
 -Postman
@@ -34,7 +35,8 @@ Currently, the backend server has not been uploaded so this will only allow acce
 ```
 
 ## Goal
-```-Successful completion of web token authorization and registration
+```
+-Successful completion of web token authorization and registration
 -Provide user with links to a country, several adventures and outfitter links
 -possibly embed a video element
 -the site design is to provide a one stop destination for users to pick a country, outfitter or adventure anywhere in the world.  Obvious time constraints will only allow for one country at this time.
