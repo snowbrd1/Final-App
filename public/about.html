@@ -3,45 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/flexbox.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet" 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+      crossorigin="anonymous">
+    
     <title>About</title>
   </head>
   <body>
-    <div class="main wrapper">
-      <header>
-        <nav>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="./about.html">About</a></li>
-          </ul>
-        </nav>
-      </header>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+        </ul>
+        <a id="login" href="/login.html">Sign In</a>
+        <a id="logout" href="" onclick="doLogout(event)">Logout</a>
+      </nav>
+    </header>
 
-      <div class="content">
-        <div class="center">
-          <h2>The most amazing adventure site!</h2>
-        </div>
+    <div class="content">
+      <div class="center">
+        <h2>Delivering adventure, anywhere in the world. Linking you to outfitters, guides, etc. as well as keeping track of the friends you met along the way.
+          <p></p>
+           <p></p>
+          AdventureAnywhere is all the all-encompassing site for the globe-trotting, adrenaline junkie or the adventurer who wants to see what their “backyard” has to offer.</h2>
       </div>
-
-      <h1>Adventure Anywhere!</h1>
-
-      <h2>Delivering adventure, anywhere in the world. Linking you to outfitters, guides, etc.. Search for your next adventure and where you can find it in the world or choose where you want to go and see what there is to offer.  AdventureAnywhere is all the all-encompassing site for the globe trotting adrenaline junkie or the adventurer who wants to see what their “backyard” has to offer.</p></h2>
-      <img src="images/globaladventure.jfif" alt="The earth being held by a hand.">
-      <p>What started off as a dream has become the world's largest site for planning your global adventure.  No more "trekking" from site to site to piece together your adventure.  Start here and build the journey of your dreams.  
-          I found myself constantly trying to locate outftters that would service what I was looking for by hopping from site to site, visiting country tourism pages to see what was offered.  It quickly became obvious that I wanted to be all encompassing.
-          How do I see all the adventures, anywhere in the world?  If it doesn't exist, build it!  So here I am building the site that I hope others will find just as easy to navigate as say....bungy jumping off a bridge?
-      </p>
-
-      <footer>
-        <nav>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-          </ul>
-        </nav>
-        <p>Author: <a href = "https://github.com/snowbrd1">Brian H.</a></p>
-      </footer>
     </div>
+
+    <footer>
+      <p>Author: <a href="https://github.com/snowbrd1">Brian H</a></p>
+    </footer>
+    <script src="./lib/api.config.js"></script>
+    <script src="./lib/simple-storage.js"></script>
+    <script src="./lib/service-helpers.js"></script>
+    <script src="./lib/auth.service.js"></script>
+    <script src="./lib/auth.js"></script>
   </body>
 </html>
